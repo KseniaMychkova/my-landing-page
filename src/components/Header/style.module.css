@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    height: 100px;
+    /* max-width: 1220px; */
+    margin: 0 auto;
+
+}
+
+.networks_links {
+    display: flex;
+    gap: 32px;
+}
+
+.networks_links ul {
+    display: flex;
+    gap: 35px;
+}
+
+.networks_links ul a {
+    font-size: 32px;
+    color: #335264;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 59px;
+}
+
+.navigation ul a {
+    color: #335264;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+}

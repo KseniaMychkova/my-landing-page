@@ -1,0 +1,50 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    margin: 0 auto;
+}
+
+.textAbout {
+    max-width: 956px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textAbout h1 {
+    font-size: 110px;
+    font-weight: 800;
+    line-height: 150px;
+    color: #676266;
+}
+
+.textAbout p {
+    line-height: 33px;
+    text-align: center;
+}
+
+.skillCards {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 40px;
+}
+
+.skillCards p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #335264;
+    border-radius: 15px;
+    color: #000000;
+    background-color: #E5C94E;
+    box-shadow: 4px 3px 0px 1px #335264;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 47.84px;
+}
