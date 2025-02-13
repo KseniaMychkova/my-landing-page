@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 42px;
+    font-weight: 600;
+}
+
+.footer h2{
+    color: #676266;
+    
+}
+
+.footer div{
+    display: flex;
+    gap: 40px;
+    position: relative;
+  
+}
+
+.footer div a, .footer div p{
+    color: #335264; 
+    font-style: italic;
+}
+
+.footer div a:hover, .footer div p:hover{
+    font-size: 24px;
+}
