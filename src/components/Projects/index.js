@@ -21,7 +21,7 @@ function Projects() {
         <a href={el.link}>Посмотреть проект ⮕</a>
     </div>)
     return (
-        <section className={style.projects}>
+        <section id='experience' className={style.projects}>
             <h2>Мои проекты</h2>
             <p>Некоторые, реализованные мной проекты</p>
             <div className={style.projectsBlock}>

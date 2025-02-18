@@ -12,7 +12,7 @@ function Footer() {
         });
     }
     return (
-        <footer className={style.footer}>
+        <footer id='contactsHeader' className={style.footer}>
             <h2>Мои контакты</h2>
             <div>
                 <a href='https://www.linkedin.com/in/%D0%BA%D1%81%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BC%D1%8B%D1%87%D0%BA%D0%BE%D0%B2%D0%B0-755799207/'>Linkedin</a>

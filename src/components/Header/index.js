@@ -16,9 +16,9 @@ function Header () {
             </div>
             <div className={style.navigation}>                
                 <ul>
-                    <li><a href="#">Обо мне</a></li>
-                    <li><a href="#">Опыт работы</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#experience">Опыт работы</a></li>
+                    <li><a href="#contactsHeader">Контакты</a></li>
                 </ul>
 
             </div>

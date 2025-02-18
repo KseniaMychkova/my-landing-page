@@ -5,13 +5,11 @@
 }
 body{
   max-width: 1500px;
-  font-family: "Poppins", serif;
+  font-family: "Open Sans", serif;
   font-size: 22px;
   font-weight: 400;
   background-color: #dedcdf;
   margin: 0 auto;
-  font-family: Poppins;
- 
 }
 ul {
   list-style-type: none;
